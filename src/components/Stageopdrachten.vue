@@ -1,6 +1,9 @@
 <template>
   <div class="root-element content">
-    <h1 style="text-align: center; text-transform: uppercase">opdrachtkaarten stage</h1>
+    <h1> Stagekaarten</h1>
+    <div class="notification is-info" style="font-weight: bold">
+    Voor iedere stagekaart maak je gebruik van de "stagekaart template", te vinden onder "downloads"
+    </div>
     <div class="boards">
         <div class="columns">
           <div class="column is-3 board" id="b1">
@@ -14,7 +17,7 @@
               </div>
               <div class="items">
                 <div :key="opdracht.wp"class="box"  id="b1c1" v-if="opdracht.kt == 1" v-for="opdracht in opdrachten">
-                  <p>{{opdracht.wp}} <span class="title">{{ opdracht.naam }}</span></p>
+                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
                   <p class="meta">
                     <button @click="setActive(opdracht)" class="button is-info"> <i class="fa fa-eye"></i> Openen   </button>
                   </p>
@@ -37,9 +40,10 @@
             </div>
             <div class="items">
               <div class="box" id="b2c1" v-if="opdracht.kt == 2" v-for="opdracht, key in opdrachten">
-               <p>{{opdracht.wp}} <span class="title">{{ opdracht.naam }}</span></p>
+                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+
                   <p class="meta">
-                    <button class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button  @click="setActive(opdracht)" class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
                   </p>
               </div>
               <div class="add-card">
@@ -58,9 +62,10 @@
             </div>
             <div class="items">
               <div class="box" id="b3c1"  v-if="opdracht.kt == 3" v-for="opdracht in opdrachten">
-               <p>{{opdracht.wp}} <span class="title">{{ opdracht.naam }}</span></p>
+                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+
                   <p class="meta">
-                    <button class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
                   </p>
               </div>
               <div class="add-card">
@@ -72,15 +77,16 @@
         <div class="column is-3 board" id="b4">
           <div class="box is-gray">
             <div class="head">
-              <div class="name">Kerntaak 4</div>
+              <div class="name">Profieldeel 1</div>
               <h4>Beheer en Optimalisatie</h4>
               <p class="sub-title">Onderhoudt en beheert de applicatie.</p>
             </div>
             <div class="items">
               <div class="box" id="b4c1" v-if="opdracht.kt == 4" v-for="opdracht in opdrachten">
-                <p>{{opdracht.wp}} <span class="title">{{ opdracht.naam }}</span></p>
+                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+
                   <p class="meta">
-                    <button class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
                   </p>
               </div>
               <div class="add-card">
@@ -99,28 +105,36 @@
           <button @click="modalOpen = false" class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
+
           <h3>Opdracht omschrijving</h3>
           <p v-html="activeOpdracht.beschrijving"></p>
 
-          <h3>Resultaat</h3>
-          <p v-html="activeOpdracht.resultaat"> </p>
 
           <h3>Op te leveren documenten</h3>
           <nav class="panel">
 
-            <div v-for="doc in activeOpdracht.oplevering" :key="doc.document" class="panel-block">
-              <p @click="doc.clicked = !doc.clicked">
-                <span class="panel-icon">
-                  <i class="fa fa-book"></i>
-                </span>
-                <b> {{doc.document}} </b>
-              </p>
-              <div v-show="doc.clicked">
-                <p v-html="doc.beschrijving"></p>
+            <div v-if="activeOpdracht.oplevering">
+              <div v-for="doc in activeOpdracht.oplevering" :key="doc.document" class="panel-block">
+                <p @click="doc.clicked = !doc.clicked">
+                  <span class="panel-icon">
+                    <i class="fa fa-book"></i>
+                  </span>
+                  <b> {{doc.document}} </b>
+                </p>
+                <div v-show="doc.clicked">
+                  <p v-html="doc.beschrijving"></p>
+                </div>
               </div>
             </div>
+            <div v-else> Momenteel geen opdrachten beschikbaar </div>
+
+
 
           </nav>
+
+          <h3>Resultaat</h3>
+          <p v-html="activeOpdracht.resultaat"> </p>
+
         </section>
       </div>
     </div>
@@ -287,7 +301,7 @@ export default {
           kt: 1,
           wp: '1.4',
           naam: 'Bereidt de realisatie voor',
-          beschrijving: `Ga voor een opdracht of project na wat je als ontwikkelomgeving
+          beschrijving: `Je gaat op basis van een gekregen (deel)opdracht na wat je als ontwikkelomgeving
                         nodig denkt te hebben en maak hiervan documentatie. Is het bijvoorbeeld
                         in een wordpress omgeving, geef dan evt aan welke wordpress versie, welke starters thema er gebruikt
                         wordt en welke plugins gebruikt gaan worden. Wordt er gebruik gemaakt van front-end- en/of
@@ -298,20 +312,30 @@ export default {
                         een videobewerker. Welke minimale systeemeisen heb je nodig voor de opdracht? Hoe zit het
                         met versiebeheer? ga je een git repository maken? heb je al plannen voor deployment?
                         op welke server gaat de applicatie draaien en wat zijn daar de configuraties van?`,
-          resultaat: `Maak een handleiding voor jezelf en/of eventuele collega's waarin de benodigdheden
-                      voor het bouwen van de applicatie staat gedocumenteerd. Het document moet zodanig opgebouwd
-                      worden dat een collega in korte tijd dezelfde ontwikkelomgeving klaar heeft staan, inclusief
-                      de juiste configuraties. De vorm hiervan kan een word-document zijn of een readme.md bestand waarin
-                      stapsgewijs vermeld staat hoe de ontwikkelomgeving ingericht kan worden. Maak hierbij gebruik van
+          resultaat: `Een handleiding voor jezelf en/of eventuele collega's waarin de benodigdheden
+                      voor het bouwen van de applicatie staan gedocumenteerd. Het document is zodanig opgebouwd
+                      dat een collega in korte tijd dezelfde ontwikkelomgeving klaar heeft staan, inclusief
+                      de juiste configuraties. De vorm hiervan is een word-document zijn of een readme.md bestand waarin
+                      stapsgewijs vermeld staat hoe de ontwikkelomgeving ingericht wordt. Hierbij is gebruik van
                       handigheidjes die je eventueel al kent, zoals bijvoorbeeld een goed ingerichte package.json bestand.`,
           oplevering: [
             {
               'clicked': false,
-              'document': 'Software lijst',
+              'document': 'Ontwikkelomgeving op stage',
               'beschrijving':
               `
-                Maak een overzicht van alle software die gebruikt gaat worden om de applicatie te realiseren. Maak onderscheid
-                tussen wat een must is voor de applicatie en wat geadviseerd wordt om mee te werken. Geef per software item
+                Beschrijf (in een half a4tje) wat je allemaal hebt moeten installeren en moeten configureren om bij jouw
+                stageplaats optimaal aan de slag te kunnen gaan met ontwikkeling. Welke online accounts heb je moeten aanmaken,
+                welke software heb je moeten installeren? Wellicht maakt je stage gebruik van containerization zoals docker?
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Development requirements',
+              'beschrijving':
+              `
+                Maak een overzicht van alle software en eventuele hardware die gebruikt gaat worden om de applicatie te realiseren. Maak onderscheid
+                tussen wat een must is voor de applicatie en wat geadviseerd wordt om mee te werken. Geef per item
                 kort een beschrijving mee. Geef ook de versienummers aan van de te gebruiken software. Denk op het gebied van software
                 dus ook aan Visual Studio extensies, Javascript/jQuery plugins, frameworks, cms systemen, plugins van cms systemen,
                 welke software er gebruikt wordt om designs en diagrammen te gebruiken e.d.
@@ -319,9 +343,11 @@ export default {
             },
             {
               'clicked': false,
-              'document': '',
+              'document': 'Realiseren ontwikkelomgeving',
               'beschrijving': `
-
+                Je gaat een <a href="https://nl.wikipedia.org/wiki/Procedure"> procedure </a> maken die beschrijft hoe een ontwikkelomgeving ingericht dient te worden. Dit is handig voor als
+                een collega developer snel aan de gang kan gaan met het project. Denk bij de procedure ook na over versiebeheer, en wat daarvoor
+                lokaal ingesteld moet worden. Geef aan wat en op welke manier de software geïnstalleerd moet worden. Hoe dient de datastructuur lokaal opgezet te worden?
               `
             }
           ]
@@ -330,50 +356,247 @@ export default {
           kt: 2,
           wp: '2.1',
           naam: 'Realiseert (onderdelen van) een product',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `
+            Je gaat een (onderdeel) van een systeem ontwikkelen, gebruikmakend van gekregen of onderzochte informatie, zoals
+            een interview met klant, of functioneel / technisc ontwerp. Dit kan een uitbreiding van functionaliteiten van een bestaande applicatie
+            zijn, of een geheel nieuwe applicatie. Je respecteert daarbij de regels van het bedrijf waar je stage loopt op het gebied
+            van het schrijven van code. Er wordt gewerkt met versiebeheer en geregeld worden er commits uitgevoerd. Deze commits zijn
+            helder in de beschrijving en dienen zodoende als logboek voor het ontwikkelproces. De programmeertaal, conventies, versiebeheer en ontwikkelplatform worden daarbij in het oog gehouden. Je vraagt hierbij geregeld
+            collega's om feedback te geven op je werk. Tijdens de realisatie heb je geregeld contactmomenten met je stagebegeleider
+            of opdrachtgever.
+          `,
+          resultaat: `
+            Een gebouwde (deel van) applicatie, goedgekeurd door jouw stagebegeleider en eventueel opdrachtgever. De applicatie hoeft
+            nog niet geïmplementeerd te zijn op de omgeving van de klant. De code is volgens de normen van het stagebedrijf geschreven
+            en goedgekeurd. De applicatie is binnen de gestelde tijd welke vooraf is vastgelegd door jouw stagebegeleider, afgerond.
+          `,
+          oplevering: [
+            {
+              'clicked': false,
+              'document': 'Ontwikkelverslag',
+              'beschrijving': `
+                Je gaat van (een gedeelte) wat je hebt gebouwd, een verslag maken. Je gaat screenshots maken van de front-end, en screenshots van de opgeleverde
+                back-end code maken. Bij deze screenshots geef je duidelijke uitleg over wat er te zien is in de code/screenshots.
+                Deze screenshots maak je met name van de opgeleverde stukken waar je trots op bent dat je dit hebt ontwikkeld.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Git Log',
+              'beschrijving': `
+                Je levert een document op waarin op een mooie overzichtelijke manier jouw commits te zien zijn.
+                Daarbij is het belangrijk dat er per commit een datum, duidelijke titel, en eventuele beschrijving te zien is.
+                Het resultaat is een logboek van de gemaakte code die jij hebt geschreven. Hierbij is het dus belangrijk dat je
+                commit titels heel specifiek zijn voor de veranderingen die je in die commit hebt gedaan.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Reflectie rapport',
+              'beschrijving': `
+                Je schrijft (ca. 1 a4) een reflectie over de gerealiseerde applicatie. Welk aspect binnen het bouwen van de applicatie vond je lastig?
+                Hoe kwam dat? Wat vond je van je eigen communicatie richting jouw collega's / opdrachtgever? Had je vaker hulp moeten vragen denk je?
+                Als je eenzelfde applicatie nog eens zou bouwen, welke zaken had je nu dan anders aangepakt?
+                Kwam de planning van je werkzaamheden overeen met de werkelijkheid? Zo niet, hoe kwam dit? Hoe heeft het ontwikkelen van deze applicatie
+                er voor gezorgd dat je een betere ontwikkelaar bent geworden?
+              `
+            }
+          ]
         },
         {
           kt: 2,
           wp: '2.2',
           naam: 'Test het ontwikkelde product',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `
+            Je bent gedurende het ontwikkelproces continu bezig met het testen van (onderdelen van) je applicatie. Je maakt gebruik van
+            verschillende test-tools om er zeker van te zijn dat de applicatie goed werkt. Denk bijvoorbeeld aan Javascript linters, HTML
+            validators, breakpoints in Visual Studio. Misschien ben je zelfs al bezig geweest met Unit Testing? Je stelt voordat je de applicatie gaat bouwen al een
+            test op die na het bouwen (dus na realisatie, voor de oplevering) uitgevoerd wordt. Bij een (web)applicatie test je of de applicatie
+            goed werkt op verschillende browsers, en of de site responsive is. Je test of eventuele berekeningen die gebruikt worden in de
+            applicatie ook daadwerkelijk het goede resultaat geeft. Je checkt of de output klopt door data te loggen naar een logbestand, de console, of tijdelijk
+            in de applicatie zelf. Je test of de zoekfuncties in de applicatie naar behoren werken. Je test of de routes van
+            de applicatie juist zijn, je test of de data die in de applicatie als input wordt gegeven, op de juiste manier wordt afgehandeld. Je test of de sql queries correct
+            zijn. Tijdens het testen zorg je er voor dat je voldoende (dummy) data hebt om zo realistisch mogelijk te testen. Daarnaast test je of alle vooraf vastgestelde
+            requirements voor de applicatie gebouwd zijn en naar behoren werken.
+          `,
+          resultaat: `
+            Een applicatie die zonder bugs of gebrek aan functionaliteiten klaar staat om te worden opgeleverd. Er zijn testrapporten
+            opgesteld en uitgevoerd om zeker te weten dat de applicatie kwalitatief in orde is. Een collega developer heeft een door jou opgestelde
+            functionele test uitgevoerd voor de applicatie. Er zijn verbetervoorstellen gemaakt om de applicatie te optimaliseren.
+          `,
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Testverslag`,
+              'beschrijving': `
+                Je beschrijft in verslagvorm (screenshots inclusief uitleg) hoe je tijdens het ontwikkelen aan de slag bent gegaan
+                met testen. Wat heb je allemaal gebruikt om te testen en waarom? Noteer welke tools je hebt gebruikt om te testen, en laat
+                met screenshots zien hoe je die tools hebt gebruikt.
+              `
+            },
+            {
+              'clicked': false,
+              'document': `Uitgevoerde test`,
+              'beschrijving': `
+                Je levert een testrapport in waarin technische en functionele aspecten van de site zijn getest, liefst door een collega-developer.
+                Het testrapport voldoet aan de eisen die je vanuit de opleiding hebt geleerd en je tijdens projecten al hebt moeten uitvoeren.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Verbetervoorstel',
+              'beschrijving': `
+                Aan de hand van de uitgevoerde test ga je conclusies trekken. Deze conclusies ga je vervolgens uitwerken tot een verbetervoorstel.
+                Wellicht werk je met Github waar je issues kan melden in de repository. De verbetervoorstellen zijn realistisch en nog te verwerken
+                in de applicatie voor de echte oplevering.
+              `
+            }
+          ]
         },
         {
           kt: 3,
           wp: '3.1',
           naam: 'Optimaliseert het product',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `
+            Je gaat aan de hand van de verbetervoorstellen een nieuwe ontwikkelronde beginnen waarin je de verbetervoorstellen verwerkt.
+            Aan het eind van deze fase bepaal je of de applicatie ook daadwerkelijk is verbeterd ten opzichte van de situatie hiervoor. Je
+            maakt een acceptatietest voor de opdrachtgever, en ondersteunt deze in het uitvoeren van deze acceptatietest. Je maakt hierbij
+            aantekeningen van de op/aanmerkingen van de opdrachtgever. Eventuele op/aanmerkingen in het gebruik van de applicatie worden nog
+            verwerkt voordat de implementatie van start gaat.
+          `,
+          resultaat: `
+            Een door de opdrachtgever geteste en goedgekeurde applicatie. Waar nodig is de al gemaakte documentatie bijgewerkt zodat
+            deze up to date is. De applicatie is nu gereed om op de omgeving van de klant gezet te worden.
+          `,
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Optimalisatie verslag`,
+              'beschrijving': `Je gaat in verslagvorm aangeven hoe je de verbetervoorstellen uit een al ontwikkelde situatie in de applicatie
+              weet te verwerken. Maak hierbij gebruik van screenshots van de code en layout wat je hebt aangepast en geef hierbij uitleg. Geef hierbij
+              duidelijk (meetbaar!) aan wat nu de verbetering is ten opzichte van de vorige situatie.
+              `
+            },
+            {
+              'clicked': false,
+              'document': `Uitgevoerde acceptatietest`,
+              'beschrijving': `Je gaat een acceptatie test maken volgens de eisen die je kent van je opleiding en laat deze
+              uitvoeren door de opdrachtgever. Je ondersteunt daarbij de opdrachtgever en je maakt notities van de op/aanmerkingen
+              van de klant tijdens de acceptatietest.`
+            }
+          ]
         },
         {
           kt: 3,
           wp: '3.2',
           naam: 'Levert het product op',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `
+            Je levert nadat de laatste testactiviteiten zijn afgerond je product af aan de klant of projectleider. Dit doe je volgens de afspraken die
+            je hebt binnen jouw stagebedrijf. Wellicht heeft jouw stagebedrijf namelijk een vast proces als het gaat om het opleveren van een
+            applicatie naar de klant. De ontwikkelaar levert een bijdrage aan de presentatie van de applicatie richting de klant of projectleider. Immers,
+            niet overal wordt een ontwikkelaar direct in communicatie met een klant gesteld. Er wordt om een goedkeuring gevraagd richting de projectleider, stagebegeleider of klant.
+          `,
+          resultaat: `
+            De applicatie is (door de opdrachtgever of projectleider) goedgekeurd en opgeleverd aan de klant, en de klant heeft nu toegang tot het gebruik van de applicatie.
+          `,
+          oplevering: [
+            {
+              'clicked': false,
+              'document': 'Implementatie',
+              'beschrijving': `
+                <h3>Maak een keuze:</h3>
+
+                <h4> Implementatieplan </h4>
+                <small><i> Als je zelf de implementatie verzorgt</i> </small>
+                <p>
+                  Je gaat een plan schrijven om de gebouwde applicatie op een optimale wijze te implementeren op de omgeving van de klant.
+                  In het implementatieplan komen de volgende aspecten uitgebreid aan bod:
+                  <ul>
+                    <li> Tijdstip implementatie </li>
+                    <li> Communicatie met betrokkenen </li>
+                    <li> Wijze van bestandsoverdracht </li>
+                    <li> Serverconfiguratie </li>
+                    <li> Wijze van database migratie </li>
+                    <li> Trainingen in applicatie </li>
+                    <li> Eventuele inzet social media </li>
+                  </ul>
+                </p>
+                <br>
+                <h4> Implementatieverslag </h4>
+                <small><i> als je niet zelf de implementatie verzorgt </i> </small>
+                <p>
+                Je gaat het proces van implementatie binnen jouw stagebedrijf uitgebreid beschrijven. Je maakt hierbij gebruik van afbeeldingen en
+                beschrijvingen. Wordt er bijvoorbeeld gebruik gemaakt van continuous integration d.m.v. Jenkins? Wordt er gebruik gemaakt van Git om verschillende stages van oplevering te hebben?
+                Maakt jouw stagebedrijf gebruik van OTAP? Hoe wordt eventuele bestaande data van de klant overgezet naar de nieuwe applicatie?
+                Mocht je tijdens je stageplaats over implementatie niet veel mee kunnen krijgen om wat voor reden dan ook, kun je altijd een collega of
+                je stagebegeleider interviewen om informatie hierover te achterhalen.
+                </p>
+              `
+            }
+          ]
         },
         {
           kt: 3,
           wp: '3.3',
           naam: 'Evalueert het opgeleverde product',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `
+            Je gaat de oplevering aan de hand van het oplever formulier bespreken met je opdrachtgever/leidinggevende/stagebegeleider.
+            Je gaat samen met hen na wat er goed is gegaan en waar verbeterpunten liggen over het hele proces.
+          `,
+          resultaat: `
+            Het opgeleverde product is geëvalueerd en je hebt voor jezelf doelstellingen opgelegd waar je bij je volgende ontwikkel klus
+            rekening mee kan houden.
+          `,
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Evaluatieformulier`,
+              'beschrijving': `Maak een evaluatieformulier die ingevuld wordt door je opdrachtgever waarin verschillende punten van de oplevering
+              van de applicatie in naar boven komen. Stel minimaal 10 vragen op die je graag beantwoord zou willen zien. Een aantal voorbeelden zijn: "Wat vond je van het aantal
+              contactmomenten die we hebben gehad tijdens het ontwikkelen en opleveren van de applicatie?" en "Hoe waardeer je de kwaliteit van de opgeleverde applicatie?"`
+            },
+            {
+              'clicked': false,
+              'document': `Reflectieverslag`,
+              'beschrijving': `Maak op basis van het gesprek met je opdrachtgever/stagebegeleider een reflectieverslag waarin je terugkijkt
+              op de volgende items:
+              <ul>
+                <li> (Ondersteuning bij) de acceptatie test </li>
+                <li> De presentatie richting opdrachtgever/klant </li>
+                <li> Eventueel de ondersteuning bij de implementatie </li>
+              </ul>
+              Per item geef je antwoord op de volgende vragen: Heb ik me voldoende voorbereid voor deze taak? Wat waren knelpunten
+              bij het uitvoeren van deze taak? Wat zou je een volgende keer anders doen?
+              `
+            }
+
+          ]
         },
         {
           kt: 4,
-          wp: '4.1',
+          wp: 'P 1.1',
           naam: 'Onderhoudt een applicatie',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `Tijdens je stage komen er vast meldingen van bestaande klanten die support nodig hebben in het
+          gebruik van hun applicatie. Je handelt eventuele incident meldingen professioneel af volgens de richtlijnen van jouw stagebedrijf.
+          Eventuele aanpassingen van de applicatie worden op een professionele manier uitgevoerd volgens de gangbare richtlijnen van jouw stagebedrijf. Daarnaast worden deze aanpassingen
+          getoetst of deze doorgevoerd kunnen worden zonder dat er andere systeemkritieke werkingen in gevaar komen. Ook toets je
+          altijd of de aangevraagde aanpassing in lijn ligt met de geldende afspraken met deze klant.`,
+          resultaat: `
+            Incidentmeldingen m.b.t. de applicatie (vragen, bugs, aanpassingsverzoeken) worden op correcte manier afgehandeld.
+          `
         },
         {
           kt: 4,
-          wp: '4.2',
+          wp: 'P 1.2',
           naam: 'Beheert gegevens',
-          beschrijving: ``,
-          resultaat: ``
+          beschrijving: `Gedurende je stage bouw je (mee aan) verschillende applicaties. Van alles wat je hebt gemaakt en beheert is het
+          belangrijk dat de daarvoor benodigde data (denk aan inloggegevens, databasegegevens, specificaties, git repository e.d.) op een gestructureerde wijze
+          beschikbaar is en niet onvindbaar is op het moment dat jij met je stage stopt. Ook is het belangrijk dat alle gemaakte wijzigingen binnen een applicatie
+          dmv versiebeheer (git) wordt bijgehouden.`,
+          resultaat: `
+            Het stagebedrijf heeft alle documentatie en data met betrekking tot de door jouw gebouwde en beheerde applicaties tot zijn beschikking
+            en kan hierin snel zijn weg vinden.
+          `
         }
       ],
       activeOpdracht: []
