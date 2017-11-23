@@ -24,7 +24,7 @@
         </span>
         Voortgangsregistratie (Excel bestand)
       </a>
-       <a href="" class="panel-block">
+       <a download href="/../docs/STAGEKAART.docx" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
