@@ -24,11 +24,11 @@
         </span>
         Voortgangsregistratie (Excel bestand)
       </a>
-       <a download href="/../docs/STAGEKAART.docx" class="panel-block">
+      <a href="https://github.com/Radiuscollege/stage/blob/master/docs/STAGEKAART.docx" class="panel-block">
         <span class="panel-icon">
-          <i class="fa fa-book"> </i>
+          <i class="fa fa-book"></i>
         </span>
-        Stagekaart Template
+         Stagekaart Template
       </a>
       <a href="" class="panel-block">
         <span class="panel-icon">
@@ -50,6 +50,14 @@
 export default {
   data () {
     return {
+
+    }
+  },
+
+  methods: {
+    test () {
+      alert('test')
     }
   }
 }
+</script>
