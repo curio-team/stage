@@ -19,7 +19,7 @@
                 <div :key="opdracht.wp"class="box"  id="b1c1" v-if="opdracht.kt == 1" v-for="opdracht in opdrachten">
                   <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
                   <p class="meta">
-                    <button @click="setActive(opdracht)" class="button is-info"> <i class="fa fa-eye"></i> Openen   </button>
+                    <button @click="setActive(opdracht)" class="button is-info"> <i class="fa fa-eye"></i> Open stagekaart  </button>
                   </p>
                 </div>
                 <div class="add-card">
@@ -43,7 +43,7 @@
                   <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
-                    <button  @click="setActive(opdracht)" class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button  @click="setActive(opdracht)" class="button is-info"><i class="fa fa-eye"></i> Open stagekaart  </button>
                   </p>
               </div>
               <div class="add-card">
@@ -65,7 +65,7 @@
                   <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
-                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open stagekaart  </button>
                   </p>
               </div>
               <div class="add-card">
@@ -86,7 +86,7 @@
                   <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
 
                   <p class="meta">
-                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Openen  </button>
+                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open stagekaart  </button>
                   </p>
               </div>
               <div class="add-card">

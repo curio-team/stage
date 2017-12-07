@@ -3,13 +3,13 @@
     <h1> Downloads </h1>
     <h3> Algemeen </h3>
     <nav class="panel">
-      <a href="" class="panel-block">
+      <a download target="_blank" href="https://radiuscollege.nl/upload/documenten/17/Handboek%20BPV%202017-2018.pdf" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
         Algemene BPV Handleiding
       </a>
-       <a href="" class="panel-block">
+       <a download target="_blank" href="https://radiuscollege.nl/upload/documenten/17/NEW%20Invulbaar%20Melding%20BPV.pdf" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
@@ -22,26 +22,26 @@
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
-        Voortgangsregistratie (Excel bestand)
+        Voortgangsregistratie (Excel bestand) | Nog te ontwikkelen
       </a>
-      <a href="https://github.com/Radiuscollege/stage/blob/master/docs/STAGEKAART.docx" class="panel-block">
+      <a download target="_blank" href="https://github.com/Radiuscollege/stage/blob/master/docs/STAGEKAART.docx?raw=true" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"></i>
         </span>
          Stagekaart Template
       </a>
-      <a href="" class="panel-block">
+      <router-link :to="{name: 'Orientatie'}" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
         Oriëntatie opdracht
-      </a>
-      <a href="" class="panel-block">
+      </router-link>
+      <router-link :to="{name: 'Checklist'}" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
         Checklist oplevering
-      </a>
+      </router-link>
     </nav>
   </div>
 </template>
