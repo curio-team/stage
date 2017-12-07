@@ -10,7 +10,7 @@
               <img src="./assets/rc-fc.png">
             </router-link>
             <router-link :to="{name: 'Home'}" class="navbar-item"> Algemene Informatie </router-link>
-            <router-link :to="{name: 'Planning'}" class="navbar-item"> Planning </router-link>
+            <router-link :to="{name: 'Checklist'}" class="navbar-item"> Planning/Checklist </router-link>
             <router-link :to="{name: 'Stagekaarten'}" class="navbar-item"> Stagekaarten </router-link>
             <router-link :to="{name: 'Downloads'}" class="navbar-item"> Downloads </router-link>
           </div>
