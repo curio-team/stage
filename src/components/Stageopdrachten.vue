@@ -11,6 +11,7 @@
               <div class="head">
                 <div class="name">Kerntaak 1</div>
                 <h4>Voorbereiding</h4>
+
                 <p class="sub-title">Levert een bijdrage aan het ontwikkeltraject.</p>
 
 
