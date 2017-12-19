@@ -93,6 +93,24 @@
               </div>
             </div>
           </div>
+          <div class="box is-gray" style="background: #CCFFCC">
+            <div class="head">
+              <div class="name">Loopbaan en Burgerschap</div>
+
+              <p class="sub-title">Oriëntatie op beroep</p>
+            </div>
+            <div class="items">
+              <div class="box" id="b4c1" v-if="opdracht.kt == 'LB'" v-for="opdracht in opdrachten">
+                  <p>Werkproces {{opdracht.wp}} <br><span class="title">{{ opdracht.naam }}</span></p>
+
+                  <p class="meta">
+                    <button @click="setActive(opdracht)"  class="button is-info"><i class="fa fa-eye"></i> Open stagekaart  </button>
+                  </p>
+              </div>
+              <div class="add-card">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -127,14 +145,11 @@
               </div>
             </div>
             <div v-else> Momenteel geen opdrachten beschikbaar </div>
-
-
-
           </nav>
 
           <h3>Resultaat</h3>
           <p v-html="activeOpdracht.resultaat"> </p>
-
+          <a :href="activeOpdracht.docpath" class="button is-info">Template downloaden</a>
         </section>
       </div>
     </div>
@@ -160,6 +175,7 @@ export default {
           resultaat: `Het resultaat is een door de opdrachtgever goedgekeurde opdracht waarin de beschikbare
                       informatie en de eisen en behoeften van de opdrachtgever zijn verwerkt. Voor het vaststellen
                       van de opdracht is gebruik gemaakt van de <a href="https://nl.wikipedia.org/wiki/MoSCoW-methode"> MoSCoW-methode</a>`,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_1.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -204,6 +220,7 @@ export default {
           resultaat: `Een realistische planning volgens de werkwijze van het stagebedrijf (planningstool zoals Asana,
                       of Microsoft Project) die waar nodig wordt bijgesteld.
                      `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_1.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -246,6 +263,7 @@ export default {
           resultaat: `Een product wat laat zien dat je een bijdrage hebt geleverd aan het functioneel of technisch
                       ontwerp van een applicatie. Dit kunnen prototypes zijn, diagrammen, schetsen of moodboards.
                       Deze producten zijn gepresenteerd aan de opdrachtgever of jouw projectteam.`,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_1.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -312,6 +330,7 @@ export default {
                       de juiste configuraties. De vorm hiervan is een word-document zijn of een readme.md bestand waarin
                       stapsgewijs vermeld staat hoe de ontwikkelomgeving ingericht wordt. Hierbij is gebruik van
                       handigheidjes die je eventueel al kent, zoals bijvoorbeeld een goed ingerichte package.json bestand.`,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_1.4.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -364,6 +383,7 @@ export default {
             nog niet geïmplementeerd te zijn op de omgeving van de klant. De code is volgens de normen van het stagebedrijf geschreven
             en goedgekeurd. De applicatie is binnen de gestelde tijd welke vooraf is vastgelegd door jouw stagebegeleider, afgerond.
           `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_2.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -418,6 +438,7 @@ export default {
             opgesteld en uitgevoerd om zeker te weten dat de applicatie kwalitatief in orde is. Een collega developer heeft een door jou opgestelde
             functionele test uitgevoerd voor de applicatie. Er zijn verbetervoorstellen gemaakt om de applicatie te optimaliseren.
           `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_2.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -462,6 +483,7 @@ export default {
             Een door de opdrachtgever geteste en goedgekeurde applicatie. Waar nodig is de al gemaakte documentatie bijgewerkt zodat
             deze up to date is. De applicatie is nu gereed om op de omgeving van de klant gezet te worden.
           `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_3.1.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -493,6 +515,7 @@ export default {
           resultaat: `
             De applicatie is (door de opdrachtgever of projectleider) goedgekeurd en opgeleverd aan de klant, en de klant heeft nu toegang tot het gebruik van de applicatie.
           `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_3.2.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -541,6 +564,7 @@ export default {
             Het opgeleverde product is geëvalueerd en je hebt voor jezelf doelstellingen opgelegd waar je bij je volgende ontwikkel klus
             rekening mee kan houden.
           `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_3.3.docx?raw=true',
           oplevering: [
             {
               'clicked': false,
@@ -577,7 +601,18 @@ export default {
           altijd of de aangevraagde aanpassing in lijn ligt met de geldende afspraken met deze klant.`,
           resultaat: `
             Incidentmeldingen m.b.t. de applicatie (vragen, bugs, aanpassingsverzoeken) worden op correcte manier afgehandeld.
-          `
+          `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_profiel1.1.docx?raw=true',
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Issue / tickets afhandelen`,
+              'beschrijving': `Beschrijf hoe jullie binnen het bedrijf omgaan met issues of tickets. Een klant neem contact op en heeft een probleem. Wie neemt bij het bedrijf het eerst contact op en hoe gaat de procedure verder? Wie bepaalt bijvoorbeeld of het een bug is die opgelost moet worden, of dat het een uitbreiding van de bestaande situatie is, en waar dus extra voor gefactureerd dient te worden? Welk systeem wordt gebruikt om de issues of tickets te monitoren en toe te wijzen? \
+
+Daarnaast doe je uitgebreid verslag van een ticket die je zelf hebt afgehandeld. Beschrijf hierbij wat de issue was, hoe je het hebt aangepakt en hoe je jouw activiteiten hebt teruggekoppeld naar de opdrachtgever.
+`
+            }
+          ]
         },
         {
           kt: 4,
@@ -590,9 +625,86 @@ export default {
           resultaat: `
             Het stagebedrijf heeft alle documentatie en data met betrekking tot de door jouw gebouwde en beheerde applicaties tot zijn beschikking
             en kan hierin snel zijn weg vinden.
-          `
+          `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_profiel1.2.docx?raw=true',
+          oplevering: [
+            {
+              'clicked': false,
+              'document': `Overdrachtsdocument`,
+              'beschrijving': `
+                Je gaat een document opstellen waarin alle gegevens op een gestructureerde manier staan opgeslagen die betrekking hebben op alles wat je tijdens je stage hebt gedaan. Welke accounts heb je aangemaakt voor software? waar zijn daarvan gegevens te vinden? Wellicht heb je met CMS systemen gewerkt, waar inloggegevens voor verplicht zijn. Hoe heb je ervoor gezorgd dat alle wijzigingen die je in de appliaties hebt gedaan, zichtbaar zijn en duidelijk voor een eventuele opvolger?
+Schrijf het document zodanig dat een eventuele stagiair die jou op zou volgen zo snel mogelijk aan de slag kan met het continueren van jouw werk. Een idee hierbij is om een FAQ te maken met antwoord op vragen die jouw eventuele opvolger of collega zou kunnen stellen
+
+              `
+            }
+          ]
+        },
+        {
+          kt: 'LB',
+          wp: 'LB 1.1',
+          naam: 'orientatie op beroepspraktijk',
+          beschrijving: `
+          <p>
+          Als je net in een nieuw bedrijf begint te werken, zul je nog aan vele zaken moeten wennen. Om je zo snel mogelijk thuis te voelen, is het belangrijk om bepaalde informatie te achterhalen. Hierbij kun je denken aan de organisatie zelf en de verschillende afdelingen binnen de organisatie maar ook hoe is het bedrijf infrastructureel georganiseerd.
+      </p><p>
+Van de organisatie wil je weten wat voor soort organisatie het is, wat de doelstellingen zijn en welke producten en diensten de organisatie levert. Ook is het belangrijk dat je weet welke weg deze producten en diensten binnen het bedrijf afleggen en hoe de goederen-, informatie- en geldstroom loopt.
+</p><p>
+Verder is het ook nuttig om de organisatie als een systeem te beschrijven, concreet en instrumenteel en aan te geven hoe de samenwerking tussen ondernemingen georganiseerd kan worden, zowel publiekrechtelijk, als privaatrechtelijk.
+</p><p>
+Voor wat betreft de afdelingen is het belangrijk dat je weet welke afdelingen er zijn, wat het contact is tussen de verschillende afdelingen en hoe en wanneer er overleg plaatsvindt tussen deze afdelingen.
+</p><p>
+De komende periode zul je op een bepaalde afdeling werken. Nadat je hebt kennisgemaakt met je nieuwe collega’s, is het van belang dat je je verdiept in je eigen functie en taken. Hiervoor kun je een overzicht maken van je eigen taken en de zaken waar je verantwoordelijk voor bent. Voorts kun je aan de hand van deze takenlijst, je werkzaamheden gaan plannen over de BPV periode.
+</p> <p>
+Ook een organogram kan je helpen meer inzicht te krijgen in de verschillende functies binnen het bedrijf en de plaats van je eigen functie.
+</p><p>
+Binnen de organisatie bestaan bepaalde werkprocedures die belangrijk zijn voor jezelf, maar ook voor anderen binnen de organisatie. Het is belangrijk dat je je hierin verdiept.
+</p><p>
+Als je al deze informatie verzameld hebt en vastgelegd in een verslag, dan zul je duidelijk weten waar je staat in de organisatie waarin je werkt.
+       </p>   `,
+          resultaat: `
+          Een oriëntatieverslag (inclusief voorkant, inhoudsopgave, bladzijdenummering, hoofdstukken) waarin je laat zien dat je onderzoek hebt gedaan naar het bedrijf waar je in stage loopt. Vereisten:
+          `,
+          docpath: 'https://github.com/Radiuscollege/stage/blob/master/docs/stagekaarten/stagekaart_template_LB1.1_orientatie.docx?raw=true',
+          oplevering: [
+            {
+              'clicked': false,
+              'document': 'Algemene informatie',
+              'beschrijving': `
+                Je gaat bij het stagebedrijf op zoek naar informatie over het bedrijf. Dit doe je door vragen te stellen aan je stagebegeleider en/of de directie van het bedrijf. Wellicht is er een jaarverslag beschikbaar waar informatie uit gehaald kan worden. Je gaat belangrijke werknemersprocedures binnen het bedrijf beschrijven zoals het ziekmelden, of het aanvragen van verlof. Je gaat op zoek naar informatie over hoe het bedrijf tot stand is gekomen en waar het bedrijf ooit mee begonnen is. Je gaat beschrijven wat de missie en visie is van het stagebedrijf. Je tekent een organigram zodat de structuur van de organisatie voor jou duidelijk wordt.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Eigen taakomschrijving',
+              'beschrijving': `
+                Je maakt een functieprofiel van de positie die jij gaat bekleden als stagiaire binnen het bedrijf. Welke taken ga je op je nemen? Waar sta jij in de organigram? geef een overzicht van de al geplande werkzaamheden die je binnen de organisatie gaat uitvoeren.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Interview Praktijkopleider over loopbaan',
+              'beschrijving': `
+                Je gaat een interview plannen, voorbereiden en uitvoeren met je praktijkopleider over de loopbaan van hem/haar tot nu. Hoe is je praktijkopleider in het wereldje gekomen? Welke opleiding(en) heeft jouw praktijkopleider gedaan? Welke werkzaamheden heeft jouw praktijkopleider voorheen gedaan? Wat trekt hem aan in de functie die hij nu bekleedt? Wat zijn de ambities van jouw praktijkopleider momenteel? Bedenk vooral ook vragen die jij zélf graag zou willen weten met betrekking tot jouw praktijkopleider en zijn loopbaan.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Activiteitendiagram van een binnenkomende opdracht',
+              'beschrijving': `
+                Je gaat met behulp van een activiteitendiagram beschrijven hoe het proces van een opdracht (en de communicatie daarvan) van initiatie tot oplevering binnen het bedrijf verloopt. Je geeft daarbij uiteraard aan wie daarbij betrokken zijn (bijv. Sales, Development, Financien, administratie... ) en welke activiteiten zij uitvoeren.
+              `
+            },
+            {
+              'clicked': false,
+              'document': 'Activiteitendiagram van het ontwikkelproces',
+              'beschrijving': `
+                Je gaat met behulp van een activiteitendiagram beschrijven hoe het ontwikkelproces binnen een opdracht verloopt. Een ontwikkelaar werkt aan de code, hoe gaat dit vervolgens getest, geaccepteerd en gedeployed worden? En belangrijker, wie zijn bij dit proces betrokken en welke activiteiten voeren zij uit?
+              `
+            }
+          ]
         }
       ],
+
       activeOpdracht: []
     }
   },
