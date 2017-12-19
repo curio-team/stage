@@ -155,13 +155,7 @@ export default {
           wp: '1.1',
           naam: 'Stelt de opdracht vast',
           keyword: 'Voorbereiding',
-          beschrijving: `Voor deze opdracht ga je samen met jouw opdrachtgever
-                        (in de meeste gevallen jouw stagebegeleider, of een andere medewerker)
-                        komen tot een technische opdracht om later uit te voeren. Om tot een duidelijke
-                        afbakening van de opdracht te komen ga je overleggen met jouw
-                        opdrachtgever. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen
-                        ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht
-                        door tijdens het gesprek aanvullingen te geven of ideeën op te gooien.
+          beschrijving: `Voor deze opdracht ga je samen met jouw opdrachtgever (in de meeste gevallen jouw stagebegeleider, of een andere medewerker) komen tot een technische opdracht om later uit te voeren. Om tot een duidelijke afbakening van de opdracht te komen ga je overleggen met jouw opdrachtgever. Je maakt daarbij notities en/of schetsen, stelt inhoudelijke vragen ter verduidelijking van de opdracht en laat zien dat je meedenkt aan de opdracht door tijdens het gesprek aanvullingen te geven of ideeën op te gooien.
                         `,
           resultaat: `Het resultaat is een door de opdrachtgever goedgekeurde opdracht waarin de beschikbare
                       informatie en de eisen en behoeften van de opdrachtgever zijn verwerkt. Voor het vaststellen
