@@ -172,7 +172,7 @@ en je studieloopbaanbegeleider voortgangsinformatie.
             specifiek werkproces.
           </p>
           <p>
-            Iedere vier weken lever je een tweetal stagekaarten in. Welke dat zijn, is aan jou. De één is namelijk in een periode
+            Iedere vier weken lever je een stagekaart in. Welke is aan jou. De één is namelijk in een periode
             meer bezig met onderhoud en beheer van een site, terwijl een ander weer meer bezig is geweest met het voorbereidingen.
           </p>
           <p>
