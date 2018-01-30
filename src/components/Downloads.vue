@@ -18,7 +18,7 @@
     </nav>
     <h3> Voortgang/Beoordeling </h3>
     <nav class="panel">
-     <a href="" class="panel-block">
+     <a href="https://github.com/Radiuscollege/stage/blob/master/docs/STAGEKAART.docx?raw=true" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
