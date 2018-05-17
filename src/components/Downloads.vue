@@ -22,7 +22,7 @@
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
-        Voortgangsregistratie (Excel bestand) | Nog te ontwikkelen
+        Voortgangsregistratie (Excel bestand)
       </a>
 
       <a class="panel-block" download href="https://github.com/Radiuscollege/stage/blob/master/docs/beoordeling_leerwerkhouding.xlsx?raw=true">
