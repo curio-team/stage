@@ -15,6 +15,12 @@
         </span>
         Meldingsformulier BPV
       </a>
+      <a download target="_blank" href="https://www.rocwb.nl/upload/documenten/1/Formele%20info%20organisatie//POK%20Beroepsonderwijs%202016-2017.pdf" class="panel-block">
+        <span class="panel-icon">
+          <i class="fa fa-book"> </i>
+        </span>
+        Algemene Voorwaarden Praktijkovereenkomst (POK)
+      </a>
     </nav>
     <h3> Voortgang/Beoordeling </h3>
     <nav class="panel">
