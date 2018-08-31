@@ -24,7 +24,7 @@
     </nav>
     <h3> Voortgang/Beoordeling </h3>
     <nav class="panel">
-     <a href="https://github.com/Radiuscollege/stage/blob/master/docs/20180118_bpv_p7-p8_groep_achternaam_voornaam.xlsx?raw=true" class="panel-block">
+     <a href="https://github.com/Radiuscollege/stage/blob/master/docs/20180829_bpv_groep_achternaam_voornaam_derdejaars.xlsx?raw=true" class="panel-block">
         <span class="panel-icon">
           <i class="fa fa-book"> </i>
         </span>
