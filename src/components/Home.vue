@@ -13,11 +13,7 @@
           en je praktijkopleider.
         </p>
         <p>
-          Verder is het van belang dat het bekend is bij jouw school (Stip) waar je stage loopt. Je dient hierbij gebruik te maken van de BPV meldings procedure binnen EOL.
-          
-          <a href="https://edurocwb.sharepoint.com/:p:/r/sites/groepsite/Radius-College---ICT-ICO/_layouts/15/Doc.aspx?sourcedoc=%7B65AB77D3-D3BA-458E-BF03-05DB94B837E7%7D&file=PowerPoint%20BPV%20Studenten.ppt&action=edit&mobileredirect=true">powerpoint presentatie BPV</a>
-          
-          <a href="https://edurocwb.sharepoint.com/:w:/r/sites/groepsite/Radius-College---ICT-ICO/_layouts/15/Doc.aspx?sourcedoc=%7B880BDFE1-3BB3-4BD3-9561-E4D049153C5B%7D&file=BPV-plaats%20doorgeven.%20Instructie%20studenten.docx&action=default&mobileredirect=true">instructies aanmelden BPV</a>
+          Verder is het van belang dat het bekend is bij jouw school (STIP) waar je stage loopt. Je dient hierbij gebruik te maken van de BPV-meldingsprocedure binnen EOL. Zie hiervoor ook de <a target="_blank" href="./static/BPV_EOL_student.pdf">instructie aanmelden BPV</a>.
         </p>
 
         <h3 id="inleiding"> Inleiding </h3>

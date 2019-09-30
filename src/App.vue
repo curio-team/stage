@@ -6,7 +6,7 @@
 
         <div class="navbar-menu">
           <div class="navbar-start">
-            <router-link :to="{name: 'Home'}" class="navbar-item" href="https://bulma.io">
+            <router-link :to="{name: 'Home'}" class="navbar-item">
               <img src="./assets/curio-logo.png">
             </router-link>
             <router-link :to="{name: 'Home'}" class="navbar-item"> Algemene Informatie </router-link>
