@@ -2,7 +2,7 @@
   <div class="root-element content">
     <h1> Stagekaarten</h1>
     <div class="notification is-info" style="font-weight: bold">
-    Voor iedere stagekaart maak je gebruik van de "stagekaart template", te vinden onder "downloads"
+    Voor iedere stagekaart maak je gebruik van de "stagekaart template", te vinden in Itslearning.
     </div>
     <div class="boards">
         <div class="columns">

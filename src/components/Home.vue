@@ -13,7 +13,7 @@
           en je praktijkopleider.
         </p>
         <p>
-          Verder is het van belang dat het bekend is bij jouw school (STIP) waar je stage loopt. Je dient hierbij gebruik te maken van de BPV-meldingsprocedure binnen EOL. Zie hiervoor ook de <a target="_blank" href="./static/BPV_EOL_student.pdf">instructie aanmelden BPV</a>.
+          Verder is het van belang dat het bekend is bij jouw school (STIP) waar je stage loopt. Je dient hierbij gebruik te maken van de BPV-meldingsprocedure binnen EOL. Zie hiervoor ook de <a target="_blank" :href="require('../assets/BPV_EOL_student.pdf')">instructie aanmelden BPV</a>.
         </p>
 
         <h3 id="inleiding"> Inleiding </h3>
@@ -26,17 +26,17 @@
           Je hebt de tijd gehad om een basis op te bouwen, nu gaan we kijken of en hóe je in het werkveld het geleerde in de praktijk kunt brengen.
         </p>
         <p>
-          Op jouw BPV-bedrijf word je begeleid door jouw praktijkopleider. Tevens is er BPV-begeleiding vanuit het Curio Tech Breda. Deze BPV-begeleider kan jou helpen bij het zoeken naar een stageplaats. Indien je (nog) geen stageplaats hebt gevonden, dien je zo snel mogelijk contact op te nemen met je BPV-begeleider van Stageplaza. De BPV-begeleider werkt nauw samen met je praktijkopleider uit het bedrijf en je studieloopbaanbegeleider (SLB) op school.
+          Op jouw BPV-bedrijf word je begeleid door je praktijkopleider. Tevens is er BPV-begeleiding vanuit  Curio Tech. Deze BPV-begeleider kan je helpen bij het zoeken naar een stageplaats. Indien je (nog) geen stageplaats hebt gevonden, moet je zo snel mogelijk contact op nemen met de BPV-begeleider van het team. De BPV-begeleider werkt nauw samen met je praktijkopleider uit het bedrijf en je studieloopbaanbegeleider (SLB) op school.
         </p>
         <h3 id="stagebezoeken"> Stagebezoeken </h3>
         <p>
-          Tijdens het gesprek met jouw BPV-begeleider worden o.a. de leer- en werkhoudingsformulieren besproken. Er worden, indien nodig, concrete afspraken gemaakt naar aanleiding van persoonlijke ontwikkelpunten. Daarnaast kan de BPV-begeleider je sturing geven bij het invullen van jouw stage-kaarten en BPV-documenten. Je documenten moeten in Itslearning worden ingeleverd. Zorg dat je altijd up to date bent met Itslearning als de BPV-begeleider van jouw school langs komt.
+          Tijdens het gesprek met jouw BPV-begeleider worden onder andere de leer- en werkhoudingsformulieren besproken. Er worden, indien nodig, concrete afspraken gemaakt naar aanleiding van persoonlijke ontwikkelpunten. Daarnaast kan de BPV-begeleider je sturing geven bij het invullen van jouw stage-kaarten en BPV-documenten. Je documenten moeten in Itslearning worden ingeleverd. Zorg dat je altijd up to date bent met Itslearning als de BPV-begeleider van jouw school langs komt.
         </p>
         <h3 id="studievoortgang">
           Studievoortgang
         </h3>
         <p>
-          De stage is onderdeel van je examen. Naast je Proeve van Bekwaamheid, aan het einde van je opleiding, zullen ook je stagedocumenten onderdeel zijn voor diplomering. Het is dan ook belangrijk al je stagedocumenten goed te bewaren in een portfolio. Het portfolio kun je verder vullen met uitwerkingen van je stagekaarten, bewijsmaterialen, verslagen enz. Na iedere periode is er een evaluatieweek op school. Een van de toetsmomenten is het portfoliovoortgangsgesprek (PFvG) met je studieloopbaanbegeleider. In dit gesprek controleer je samen de stagedocumenten, je Excel-bestand en hoe ver je bent met de opbouw van je portfolio. Vervolgens wordt de studievoortgang vastgelegd.
+          De stage is onderdeel van je examen. Naast je Proeve van Bekwaamheid, aan het einde van je opleiding, zullen ook je stagedocumenten onderdeel zijn voor diplomering. Het is dan ook belangrijk al je stagedocumenten goed te bewaren in een portfolio. Het portfolio kun je verder vullen met uitwerkingen van je stagekaarten, bewijsmaterialen, verslagen enz. Na iedere periode is er een evaluatieweek op school. Een van de toetsmomenten is het portfoliovoortgangsgesprek (PFVG) met je studieloopbaanbegeleider. In dit gesprek controleer je samen de stagedocumenten, je Excel-bestand en hoe ver je bent met de opbouw van je portfolio. Vervolgens wordt de studievoortgang vastgelegd.
         </p>
 
         <h3 id="organisatie"> Organisatie </h3>
@@ -53,7 +53,7 @@
           Dit zijn voor jou de opdrachten die gedurende de stageperiode worden opgeleverd.
           Deze opdrachten staan naast het gebruikelijke bijhouden van het stage excelformulier.
           <ul>
-            <li><b> Oriëntatie opdracht (zie ITslearning, bij elke nieuwe stage start je met de Oriëntatie opdracht) </b></li>
+            <li><b> Oriëntatie opdracht (zie Itslearning, bij elke nieuwe stage start je met de Oriëntatieopdracht) </b></li>
             <li><b> Stagekaarten (zie pagina 'stagekaarten') </b></li>
           </ul>
           Kijk op de planning wanneer de oplevering van deze opdrachten gepland staan.
@@ -64,11 +64,10 @@
         <p>
           Voor de beoordeling van de BPV zijn de volgende documenten van belang:
           <ul>
-            <li> Weekrapportages</li>
             <li> Urenverantwoording </li>
-            <li> Leer/Werkhoudingsformulieren </li>
+            <li> Leer/werkhoudingsformulieren </li>
             <li> Oriëntatieopdracht </li>
-            <li> Ingevulde Stagekaarten </li>
+            <li> Ingevulde stagekaarten </li>
           </ul>
         </p>
 
@@ -110,7 +109,7 @@
             </p>-->
 
 
-          <h4 id="leerwerkhoudingslijsten"> Leer/Werkhoudingslijsten </h4>
+          <h4 id="leerwerkhoudingslijsten"> Leer/werkhoudingslijsten </h4>
           <p>
             Eénmaal per vier weken maak je een afspraak met je praktijkopleider voor een beoordelingsgesprek. De praktijkopleider ontvangt voor aanvang van dit gesprek een exemplaar van het beoordelingsformulier “Leer- en Werkhouding BPV”, te vinden in het Excel formulier.
           </p>
@@ -128,7 +127,7 @@
           </p>
 
           <h4 id="orientatieopdracht"> Oriëntatieopdracht </h4>
-          <p> tijdens de eerste 4 weken van de stage ga je verschillende aspecten van jouw BPV-bedrijf onderzoeken en documenteren in volgens de richtlijnen van de Oriëntatieopdracht, te vinden onder 'downloads'.
+          <p> Tijdens de eerste 4 weken van de stage ga je verschillende aspecten van jouw BPV-bedrijf onderzoeken en documenteren in volgens de richtlijnen van de Oriëntatieopdracht, te vinden onder 'downloads'.
           </p>
           <p>
             Het doel hiervan is het snel bekend raken van de processen en structuur binnen in de organisatie.
