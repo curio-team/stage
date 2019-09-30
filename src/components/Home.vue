@@ -164,7 +164,7 @@
             </li>
             <li> <a href="#beoordeling"> Beoordeling </a>
                 <ul>
-                  <li> <a href="#logboek"> logboek  </a> </li>
+                  <li> <a href="#logboek"> Logboek  </a> </li>
                   <!-- <li> <a href="#weekrapportages"> Weekrapportages  </a> </li> -->
                   <li > <a href="#urenverantwoording"> Urenverantwoording </a> </li>
                   <li> <a href="#leerwerkhoudingslijsten"> Leer/Werkhoudingslijsten </a> </li>
