@@ -2816,17 +2816,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "6hYj":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root-element content"},[_c('div',{staticClass:"columns"},[_c('div',{staticClass:"column is-two-third"},[_c('h1',[_vm._v(" Algemene Informatie ")]),_vm._v(" "),_c('p',[_vm._v("\n          Welkom bij het opleidings specifieke gedeelte van het handboek BPV (BeroepsPraktijkVorming, ofwel stage).\n          Dit is een aanvulling op de \""),_c('a',{attrs:{"href":"https://radiuscollege.nl/upload/documenten/17/Handboek%20BPV%202017-2018.pdf"}},[_vm._v("algemene BPV Handleiding")]),_vm._v("\". Natuurlijk is\n          het belangrijk om ook dit document goed door te nemen en mee te geven aan jouw praktijkbegeleider.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Dit handboek beschrijft opleidingsspecifieke gegevens voor leerjaar 2 en 3 voor de opleiding Applicatie- en Mediaontwikkelaar met betrekking\n          tot de stage en is een aanvulling op het algemene deel uit je studentenmap. Deze informatie is bestemd voor jou\n          en je praktijkopleider.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Verder is het van belang dat het bekend is bij Stageplaza waar je stage loopt. Je dient\n          hierbij gebruik te maken van het "),_c('a',{attrs:{"href":"https://radiuscollege.nl/upload/documenten/17/NEW%20Invulbaar%20Melding%20BPV.pdf"}},[_vm._v(" Meldingsformulier BPV ")]),_vm._v(".\n        ")]),_vm._v(" "),_c('h3',{attrs:{"id":"inleiding"}},[_vm._v(" Inleiding ")]),_vm._v(" "),_c('p',[_vm._v("\n          Eindelijk is het zover. Je gaat stage lopen! Proficiat met het vinden van een hopelijk leerzame\n          stageplaats. Je gaat eindelijk échte praktijkervaring opdoen!\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Het doel van de stage is om jou voor te bereiden voor wat je straks in het werkveld te wachten staat in het bedrijfsleven.\n          Je hebt de tijd gehad om een basis op te bouwen, nu gaan we kijken of en hóe je in het werkveld het geleerde in de praktijk kunt brengen.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Op jouw BPV-bedrijf word je begeleid door jouw praktijkopleider. Tevens is er BPV-begeleiding vanuit het Radius\nCollege. Deze BPV-begeleider kan jou helpen bij het zoeken naar een stageplaats. Indien je (nog) geen stageplaats\nhebt gevonden, dien je zo snel mogelijk contact op te nemen met je BPV-begeleider van Stageplaza. De BPV-begeleider werkt\nnauw samen met je praktijkopleider uit het bedrijf en je studieloopbaanbegeleider (SLB) op school.\n        ")]),_vm._v(" "),_c('h3',{attrs:{"id":"stagebezoeken"}},[_vm._v(" Stagebezoeken ")]),_vm._v(" "),_c('p',[_vm._v("\n          Tijdens het gesprek met jouw stagebegeleider worden o.a. de leer- en werkhoudingsformulieren besproken. Er\nworden, indien nodig, concrete afspraken gemaakt naar aanleiding van persoonlijke ontwikkelpunten. Daarnaast\nkan de stagebegeleider je sturing geven bij het invullen van jouw BPV-documenten. Een deel van je documenten\nwordt in een Excel-bestand weggeschreven. Zie de 'downloads' sectie van de site. Daarom is het belangrijk dat je voor deze gesprekken\nzorgt dat je toegang hebt tot dit Excel-bestand. Plaats dit Excel-bestand op je OneDrive in je Office 365 omgeving\nzodat je er overal aan kunt werken. Zorg altijd dat je bij het stagegesprek met je stagebegeleider en praktijkopleider\nde reeds afgetekende documenten bij de hand hebt.\n        ")]),_vm._v(" "),_c('h3',{attrs:{"id":"studievoortgang"}},[_vm._v("\n          Studievoortgang\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          De stage is onderdeel van je examen. Naast je Proeve van Bekwaamheid, aan het einde van je opleiding, zullen\nook je stagedocumenten onderdeel zijn voor diplomering. Het is dan ook belangrijk al je stagedocumenten goed\nte bewaren in een portfolio. Het portfolio kun je verder vullen met uitwerkingen van je stagekaarten, bewijsmaterialen, verslagen\nenz. Na iedere periode is er een evaluatieweek op school. Een van de toetsmomenten is het\nportfoliovoortgangsgesprek (PFvG) met je studieloopbaanbegeleider. In dit gesprek controleer je samen de stagedocumenten,\nje Excel-bestand en hoe ver je bent met de opbouw van je portfolio. Vervolgens wordt de studievoortgang\nvastgelegd.\n\n        ")]),_vm._v(" "),_c('h3',{attrs:{"id":"organisatie"}},[_vm._v(" Organisatie ")]),_vm._v(" "),_c('h4',{attrs:{"id":"duur"}},[_vm._v(" Duur ")]),_vm._v(" "),_c('p',[_vm._v("\n          In je Excel-bestand, tabblad “BPV-tijd”, staat de planning voor de stageperiode voor het huidige schooljaar,\nwaarop te zien zijn, de terugkomdagen en wanneer deze periode aanvangt en eindigt. Binnen de stagedagen\nbehoor je volgens de werktijden van het bedrijf te werken op de plaats waar de praktijkopleider dat aangeeft.\n(School)vakantie en/of vrije dagen moet je in overleg met de praktijkopleider aan het begin van je stage inplannen.\nGebruikelijk is parallel te lopen met de schoolvakanties. Spreek dit goed af om misverstanden te voorkomen.\nIn de evaluatieweek ben je volgens rooster op school.\nDe start- en de einddatum van de PraktijkOvereenKomst (POK) zijn ruimer genomen. Zodoende is het mogelijk\ndat je later begint of eerder stopt met je stage dan de aangeven POK-data. Er is voldoende ruimte om de verplichte\n512 uren binnen deze POK-data te voldoen. Als het einde van je stage niet op een vrijdag valt, dan gaan\nwij er vanuit dat je de lopende week uitwerkt. Je hebt dan meer stage-uren dan het gestelde minimum.\n        ")]),_vm._v(" "),_c('p',{staticClass:"has-text-danger"},[_c('i',{staticClass:"fa fa-exclamation"}),_vm._v("  Leg deze afspraken vast zodat er over de werk- en vakantietijden geen onduidelijkheden zijn. "),_c('i',{staticClass:"fa fa-exclamation"})]),_vm._v(" "),_c('h4',{attrs:{"id":"stageopdrachten"}},[_vm._v(" Stageopdrachten ")]),_vm._v(" "),_c('p',[_vm._v("\n          Dit zijn voor jou de opdrachten die gedurende de stageperiode worden opgeleverd.\n          Deze opdrachten staan naast het gebruikelijke bijhouden van het stage excelformulier.\n          "),_c('ul',[_c('li',[_c('b',[_vm._v(" Oriëntatie opdracht (zie downloads) ")])]),_vm._v(" "),_c('li',[_c('b',[_vm._v(" Stagekaarten (zie pagina 'stagekaarten') ")])])]),_vm._v("\n          Kijk op de planning wanneer de oplevering van deze opdrachten gepland staan.\n\n        ")]),_vm._v(" "),_c('h3',{attrs:{"id":"beoordeling"}},[_vm._v(" Beoordeling ")]),_vm._v(" "),_c('p',[_vm._v("\n          Voor de beoordeling van de stage zijn de volgende documenten van belang:\n          "),_c('ul',[_c('li',[_vm._v(" Weekrapportages")]),_vm._v(" "),_c('li',[_vm._v(" Urenverantwoording ")]),_vm._v(" "),_c('li',[_vm._v(" Leer/Werkhoudingsformulieren ")]),_vm._v(" "),_c('li',[_vm._v(" Oriëntatieopdracht ")]),_vm._v(" "),_c('li',[_vm._v(" Ingevulde Stagekaarten ")])])]),_vm._v(" "),_c('h4',{attrs:{"id":"urenverantwoording"}},[_vm._v(" Urenverantwoording ")]),_vm._v(" "),_c('p',[_vm._v("\n          In het excelbestand is een formulier te vinden genaamd 'Verantwoording BPV tijd'.\n          In dit document worden jouw gewerkte dagdelen bijgehouden, alsmede eventuele afwezigheden en ziektemeldingen.\n          Deze dient bij de PFVG ondertekend door jouw praktijkopleider in je portfolio te vinden zijn.\n        ")]),_vm._v(" "),_c('h4',{attrs:{"id":"weekrapportages"}},[_vm._v(" Weekrapportages ")]),_vm._v(" "),_c('p',[_vm._v("\n              De weekrapportages geven een overzicht van de werkzaamheden die je gedurende de week\n              hebt uitgevoerd. Het is eigenlijk een logboek waarin je snel kunt zien waar je je deze week\n              mee hebt bezig gehouden.\n            ")]),_vm._v(" "),_c('p',[_vm._v("\n              Aan het eind van iedere dag hou je bij wat de belangrijkste punten zijn die je vandaag hebt gedaan.\n              Dat doe je zo specifiek mogelijk. Als voorbeeld: \"Mobiel menu van website responsive gemaakt d.m.v. Media Queries.\".\n              Ook noteer je hoeveel uur je bezig bent geweest met deze taak.\n            ")]),_vm._v(" "),_c('p',[_vm._v("\n              Bij de PFVG (Portfoliovoortgangsgesprek) wordt gekeken of de weekrapportages specifiek genoeg zijn\n              ingevuld. Daarnaast moeten de rapportages ondertekent worden door jouw stagebegeleider. Je houdt de afgedrukte\n              werkhoudingslijsten bij in je portfolio.\n            ")]),_vm._v(" "),_c('h4',{attrs:{"id":"leerwerkhoudingslijsten"}},[_vm._v(" Leer/Werkhoudingslijsten ")]),_vm._v(" "),_c('p',[_vm._v("\n            Eénmaal per vier weken maak je een afspraak met je praktijkopleider voor een beoordelingsgesprek. De praktijkopleider\nontvangt voor aanvang van dit gesprek een exemplaar van het beoordelingsformulier “Leer- en\nWerkhouding BPV”, te vinden in het Excel formulier.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            Tijdens het gesprek bespreek je met je praktijkopleider de voortgang van je BPV en geeft hij/zij een oordeel over\nje functioneren en vult dit in op het beoordelingsformulier ”Leer- en Werkhouding BPV”.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n             Na afloop van het gesprek ondertekenen jullie\nhet beoordelingsformulier Leer- en Werkhouding BPV. Voorzie deze van een\ndatum. Je voegt de getekende exemplaren toe aan je portfolio en brengt ze mee naar de terugkomdag zodat je\nze bij de studieloopbaanbegeleider kunt inleveren. Neem de opmerkingen van je leer- en werkhoudingslijst, die\nde praktijkopleider plaatst, ook over in het Excel-bestand. Uiteraard is het duidelijk dat het overnemen van de\nhandtekeningen niet gaat. Dit wordt later door je BPV-begeleider en/of je studieloopbaanbegeleider gecontroleerd.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            In het Excel-bestand onder het tabblad BPV-tijd, kun je zien, wanneer je een beoordelingsformulier Leer-en\nWerkhouding en een bewijskaart moet inleveren op de terugkomdag bij je studieloopbaanbegeleider. Maak dus\nongeveer een week voor die datum een afspraak met je praktijkopleider om het beoordelingsformulier in te\nlaten vullen en om de bewijskaart samen te bespreken. Dit is jouw verantwoordelijkheid. Wacht dus niet tot je\npraktijkopleider er mee komt, maar neem zelf het initiatief hierin!\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            Het vierwekelijks beoordelingsformulier Leer- en Werkhouding BPV en de vierwekelijkse bewijskaart zijn bedoeld\nom je competentieontwikkeling te beoordelen en hieraan sturing te geven. Het formulier geeft jou feedback\nen je studieloopbaanbegeleider voortgangsinformatie.\n          ")]),_vm._v(" "),_c('h4',{attrs:{"id":"orientatieopdracht"}},[_vm._v(" Oriëntatieopdracht ")]),_vm._v(" "),_c('p',[_vm._v(" tijdens de eerste 4 weken van de stage ga je verschillende aspecten van jouw stagebedrijf onderzoeken en documenteren in\n            volgens de richtlijnen van de Oriëntatieopdracht, te vinden onder 'downloads'.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            Het doel hiervan is het snel bekend raken van de processen en structuur binnen in de organisatie.\n          ")]),_vm._v(" "),_c('h4',{attrs:{"id":"stagekaarten"}},[_vm._v(" Ingevulde stagekaarten ")]),_vm._v(" "),_c('p',[_vm._v("\n            Stagekaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan\n            met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere stagekaart staat in het teken van een\n            specifiek werkproces.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            Iedere vier weken lever je een stagekaart in. Welke is aan jou. De één is namelijk in een periode\n            meer bezig met onderhoud en beheer van een site, terwijl een ander weer meer bezig is geweest met het voorbereidingen.\n          ")]),_vm._v(" "),_c('p',[_vm._v("\n            Per stagekaart is aangegeven welke documenten je dient aan te leveren voor een beoordeling.\n          ")])]),_vm._v(" "),_c('div',{staticClass:"column is-one-third"},[_c('aside',{staticClass:"toc"},[_c('ul',{staticClass:"toc-list"},[_c('li',[_c('a',{attrs:{"href":"#inleiding"}},[_vm._v(" Inleiding ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stagebezoeken"}},[_vm._v(" Stagebezoeken ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#studievoortgang"}},[_vm._v(" Studievoortgang ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#organisatie"}},[_vm._v(" Organisatie ")]),_vm._v(" "),_c('ul',[_c('li',[_c('a',{attrs:{"href":"#duur"}},[_vm._v(" Duur ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stageopdrachten"}},[_vm._v(" Stageopdrachten ")])])])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#beoordeling"}},[_vm._v(" Beoordeling ")]),_vm._v(" "),_c('ul',[_c('li',[_c('a',{attrs:{"href":"#weekrapportages"}},[_vm._v(" Weekrapportages  ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#urenverantwoording"}},[_vm._v(" Urenverantwoording ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#leerwerkhoudingslijsten"}},[_vm._v(" Leer/Werkhoudingslijsten ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#orientatieopdracht"}},[_vm._v(" Oriëntatieopdracht  ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stagekaarten"}},[_vm._v(" Ingevulde stagekaarten ")])])])])])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "7+uW":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15411,35 +15400,6 @@ module.exports = g;
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -15449,10 +15409,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "I4Kd":
-/***/ (function(module, exports) {
+/***/ "G1k6":
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+module.exports = __webpack_require__.p + "static/img/curio-logo.e8dc8c1.png";
 
 /***/ }),
 
@@ -15607,9 +15567,9 @@ module.exports = g;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__("xJD8");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d69c750_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__("xAVb");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_aa1b398a_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__("hJC5");
 function injectStyle (ssrContext) {
-  __webpack_require__("QYQg")
+  __webpack_require__("TKgk")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -15622,12 +15582,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6d69c750"
+var __vue_scopeId__ = "data-v-aa1b398a"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d69c750_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_aa1b398a_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15672,6 +15632,13 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 /***/ }),
 
+/***/ "PUY1":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "PwEo":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15693,13 +15660,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 //
 
 /* harmony default export */ __webpack_exports__["a"] = ({});
-
-/***/ }),
-
-/***/ "QYQg":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -15838,6 +15798,13 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
     }
   }
 });
+
+/***/ }),
+
+/***/ "TKgk":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -16142,13 +16109,6 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "XgkG":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/img/rc-fc.33487a5.png";
-
-/***/ }),
-
 /***/ "YaEn":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16247,6 +16207,17 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "hJC5":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('nav',{staticClass:"navbar is-dark",attrs:{"role":"navigation","aria-label":"main navigation"}},[_c('div',{staticClass:"navbar-brand"},[_c('div',{staticClass:"navbar-menu"},[_c('div',{staticClass:"navbar-start"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Home'},"href":"https://bulma.io"}},[_c('img',{attrs:{"src":__webpack_require__("G1k6")}})]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Home'}}},[_vm._v(" Algemene Informatie ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Stagekaarten'}}},[_vm._v(" Stagekaarten ")])],1)]),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('div',{staticClass:"container"},[_c('transition',{attrs:{"name":"fade"}},[_c('router-view')],1)],1)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"button navbar-burger"},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "i/ZD":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16288,9 +16259,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Home_vue__ = __webpack_require__("Fs8J");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3e1b8bc5_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__ = __webpack_require__("6hYj");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_24005762_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__ = __webpack_require__("xaah");
 function injectStyle (ssrContext) {
-  __webpack_require__("I4Kd")
+  __webpack_require__("PUY1")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -16308,7 +16279,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Home_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3e1b8bc5_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_24005762_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -16606,23 +16577,10 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "xAVb":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('nav',{staticClass:"navbar is-dark",attrs:{"role":"navigation","aria-label":"main navigation"}},[_c('div',{staticClass:"navbar-brand"},[_c('div',{staticClass:"navbar-menu"},[_c('div',{staticClass:"navbar-start"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Home'},"href":"https://bulma.io"}},[_c('img',{attrs:{"src":__webpack_require__("XgkG")}})]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Home'}}},[_vm._v(" Algemene Informatie ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Checklist'}}},[_vm._v(" Planning/Checklist ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Stagekaarten'}}},[_vm._v(" Stagekaarten ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":{name: 'Downloads'}}},[_vm._v(" Downloads ")])],1)]),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('div',{staticClass:"container"},[_c('transition',{attrs:{"name":"fade"}},[_c('router-view')],1)],1)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('button',{staticClass:"button navbar-burger"},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "xJD8":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-//
-//
 //
 //
 //
@@ -16661,6 +16619,17 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "xaah":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"root-element content"},[_c('div',{staticClass:"columns"},[_c('div',{staticClass:"column is-two-third"},[_c('h1',[_vm._v(" Algemene Informatie ")]),_vm._v(" "),_c('p',[_vm._v("\n        Deze website beschrijft opleidingsspecifieke gegevens voor leerjaar 2 en 3 voor de opleiding Applicatie- en Mediaontwikkelaar met betrekking\n        tot de stage. Deze informatie is bestemd voor jou\n        en je praktijkopleider.\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n        Verder is het van belang dat het bekend is bij jouw school (Stip) waar je stage loopt. Je dient hierbij gebruik te maken van de BPV meldings procedure binnen EOL.\n        \n        "),_c('a',{attrs:{"href":"https://edurocwb.sharepoint.com/:p:/r/sites/groepsite/Radius-College---ICT-ICO/_layouts/15/Doc.aspx?sourcedoc=%7B65AB77D3-D3BA-458E-BF03-05DB94B837E7%7D&file=PowerPoint%20BPV%20Studenten.ppt&action=edit&mobileredirect=true"}},[_vm._v("powerpoint presentatie BPV")]),_vm._v(" "),_c('a',{attrs:{"href":"https://edurocwb.sharepoint.com/:w:/r/sites/groepsite/Radius-College---ICT-ICO/_layouts/15/Doc.aspx?sourcedoc=%7B880BDFE1-3BB3-4BD3-9561-E4D049153C5B%7D&file=BPV-plaats%20doorgeven.%20Instructie%20studenten.docx&action=default&mobileredirect=true"}},[_vm._v("instructies aanmelden BPV")])]),_vm._v(" "),_c('h3',{attrs:{"id":"inleiding"}},[_vm._v(" Inleiding ")]),_vm._v(" "),_c('p',[_vm._v("\n        Eindelijk is het zover. Je gaat stage lopen! Proficiat met het vinden van een hopelijk leerzame\n        stageplaats. Je gaat eindelijk échte praktijkervaring opdoen!\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n        Het doel van de stage is om jou voor te bereiden voor wat je straks in het werkveld te wachten staat in het bedrijfsleven.\n        Je hebt de tijd gehad om een basis op te bouwen, nu gaan we kijken of en hóe je in het werkveld het geleerde in de praktijk kunt brengen.\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n        Op jouw BPV-bedrijf word je begeleid door jouw praktijkopleider. Tevens is er BPV-begeleiding vanuit het Curio Tech Breda. Deze BPV-begeleider kan jou helpen bij het zoeken naar een stageplaats. Indien je (nog) geen stageplaats hebt gevonden, dien je zo snel mogelijk contact op te nemen met je BPV-begeleider van Stageplaza. De BPV-begeleider werkt nauw samen met je praktijkopleider uit het bedrijf en je studieloopbaanbegeleider (SLB) op school.\n      ")]),_vm._v(" "),_c('h3',{attrs:{"id":"stagebezoeken"}},[_vm._v(" Stagebezoeken ")]),_vm._v(" "),_c('p',[_vm._v("\n        Tijdens het gesprek met jouw BPV-begeleider worden o.a. de leer- en werkhoudingsformulieren besproken. Er worden, indien nodig, concrete afspraken gemaakt naar aanleiding van persoonlijke ontwikkelpunten. Daarnaast kan de BPV-begeleider je sturing geven bij het invullen van jouw stage-kaarten en BPV-documenten. Je documenten moeten in Itslearning worden ingeleverd. Zorg dat je altijd up to date bent met Itslearning als de BPV-begeleider van jouw school langs komt.\n      ")]),_vm._v(" "),_c('h3',{attrs:{"id":"studievoortgang"}},[_vm._v("\n        Studievoortgang\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n        De stage is onderdeel van je examen. Naast je Proeve van Bekwaamheid, aan het einde van je opleiding, zullen ook je stagedocumenten onderdeel zijn voor diplomering. Het is dan ook belangrijk al je stagedocumenten goed te bewaren in een portfolio. Het portfolio kun je verder vullen met uitwerkingen van je stagekaarten, bewijsmaterialen, verslagen enz. Na iedere periode is er een evaluatieweek op school. Een van de toetsmomenten is het portfoliovoortgangsgesprek (PFvG) met je studieloopbaanbegeleider. In dit gesprek controleer je samen de stagedocumenten, je Excel-bestand en hoe ver je bent met de opbouw van je portfolio. Vervolgens wordt de studievoortgang vastgelegd.\n      ")]),_vm._v(" "),_c('h3',{attrs:{"id":"organisatie"}},[_vm._v(" Organisatie ")]),_vm._v(" "),_c('h4',{attrs:{"id":"duur"}},[_vm._v(" Duur ")]),_vm._v(" "),_c('p',[_vm._v("\n        In je Excel-bestand, tabblad “BPV-tijd”, staat de planning voor de stageperiode voor het huidige schooljaar, waarop te zien zijn, de terugkomdagen en wanneer deze periode aanvangt en eindigt. Binnen de stagedagen behoor je volgens de werktijden van het bedrijf te werken op de plaats waar de praktijkopleider dat aangeeft. (School)vakantie en/of vrije dagen moet je in overleg met de praktijkopleider aan het begin van je stage inplannen. Gebruikelijk is parallel te lopen met de schoolvakanties. Spreek dit goed af om misverstanden te voorkomen. In de evaluatieweek ben je volgens rooster op school en je loopt minimaal 3 dagen stage. De start- en de einddatum van de PraktijkOvereenKomst (POK) zijn ruimer genomen. Zodoende is het mogelijk dat je later begint of eerder stopt met je stage dan de aangeven POK-data. Er is voldoende ruimte om de verplichte 560 uren binnen deze POK-data te voldoen. Als het einde van je stage niet op een vrijdag valt, dan gaan wij er vanuit dat je de lopende week uitwerkt. Je hebt dan meer stage-uren dan het gestelde minimum.\n      ")]),_vm._v(" "),_c('p',{staticClass:"has-text-danger"},[_c('i',{staticClass:"fa fa-exclamation"}),_vm._v("  Leg deze afspraken vast zodat er over de werk- en vakantietijden geen onduidelijkheden zijn. "),_c('i',{staticClass:"fa fa-exclamation"})]),_vm._v(" "),_c('h4',{attrs:{"id":"stageopdrachten"}},[_vm._v(" Stageopdrachten ")]),_vm._v(" "),_c('p',[_vm._v("\n        Dit zijn voor jou de opdrachten die gedurende de stageperiode worden opgeleverd.\n        Deze opdrachten staan naast het gebruikelijke bijhouden van het stage excelformulier.\n        "),_c('ul',[_c('li',[_c('b',[_vm._v(" Oriëntatie opdracht (zie ITslearning, bij elke nieuwe stage start je met de Oriëntatie opdracht) ")])]),_vm._v(" "),_c('li',[_c('b',[_vm._v(" Stagekaarten (zie pagina 'stagekaarten') ")])])]),_vm._v("\n        Kijk op de planning wanneer de oplevering van deze opdrachten gepland staan.\n\n      ")]),_vm._v(" "),_c('h3',{attrs:{"id":"beoordeling"}},[_vm._v(" Beoordeling ")]),_vm._v(" "),_c('p',[_vm._v("\n        Voor de beoordeling van de BPV zijn de volgende documenten van belang:\n        "),_c('ul',[_c('li',[_vm._v(" Weekrapportages")]),_vm._v(" "),_c('li',[_vm._v(" Urenverantwoording ")]),_vm._v(" "),_c('li',[_vm._v(" Leer/Werkhoudingsformulieren ")]),_vm._v(" "),_c('li',[_vm._v(" Oriëntatieopdracht ")]),_vm._v(" "),_c('li',[_vm._v(" Ingevulde Stagekaarten ")])])]),_vm._v(" "),_c('h4',{attrs:{"id":"urenverantwoording"}},[_vm._v(" Urenverantwoording ")]),_vm._v(" "),_c('p',[_vm._v("\n        In het excelbestand is een formulier te vinden genaamd 'Verantwoording BPV tijd'.\n        In dit document worden jouw gewerkte dagdelen bijgehouden, alsmede eventuele afwezigheden en ziektemeldingen.\n        Deze dient bij de PFVG ondertekend door jouw praktijkopleider in je portfolio te vinden zijn.\n      ")]),_vm._v(" "),_c('h4',{attrs:{"id":"logboek"}},[_vm._v("Logboek")]),_vm._v(" "),_c('p',[_vm._v("\n      Het logboek geeft een overzicht van de werkzaamheden die je gedurende de week hebt uitgevoerd zodat je snel kunt zien waar je je deze week mee hebt bezig gehouden.\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n      Aan het eind van iedere dag hou je bij wat de belangrijkste punten zijn die je vandaag hebt gedaan. Dat doe je zo specifiek mogelijk. Als voorbeeld: \"Mobiel menu van website responsive gemaakt d.m.v. Media Queries.\". Ook noteer je hoeveel uur je bezig bent geweest met deze taak.\n      ")]),_vm._v(" "),_c('p',[_vm._v("\n      Bij de PFVG (Portfoliovoortgangsgesprek) wordt gekeken of de weekrapportages specifiek genoeg zijn ingevuld. Daarnaast moeten de rapportages ondertekent worden door jouw stagebegeleider. Je houdt de afgedrukte werkhoudingslijsten bij in je portfolio.\n      ")]),_vm._v(" "),_c('h4',{attrs:{"id":"leerwerkhoudingslijsten"}},[_vm._v(" Leer/Werkhoudingslijsten ")]),_vm._v(" "),_c('p',[_vm._v("\n          Eénmaal per vier weken maak je een afspraak met je praktijkopleider voor een beoordelingsgesprek. De praktijkopleider ontvangt voor aanvang van dit gesprek een exemplaar van het beoordelingsformulier “Leer- en Werkhouding BPV”, te vinden in het Excel formulier.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Tijdens het gesprek bespreek je met je praktijkopleider de voortgang van je BPV en geeft hij/zij een oordeel over je functioneren en vult dit in op het beoordelingsformulier ”Leer- en Werkhouding BPV”.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n           Na afloop van het gesprek ondertekenen jullie het beoordelingsformulier Leer- en Werkhouding BPV. Voorzie deze van een datum. Je voegt de getekende exemplaren toe aan je portfolio en brengt ze mee naar de terugkomdag zodat je ze bij de studieloopbaanbegeleider kunt inleveren. Neem de opmerkingen van je leer- en werkhoudingslijst, die de praktijkopleider plaatst, ook over in het Excel-bestand. Uiteraard is het duidelijk dat het overnemen van de handtekeningen niet gaat. Dit wordt later door je BPV-begeleider en/of je studieloopbaanbegeleider gecontroleerd.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          In het Excel-bestand onder het tabblad BPV-tijd, kun je zien, wanneer je een beoordelingsformulier Leer-en Werkhouding en een bewijskaart moet inleveren op de terugkomdag bij je studieloopbaanbegeleider. Maak dus ongeveer een week voor die datum een afspraak met je praktijkopleider om het beoordelingsformulier in te laten vullen en om de bewijskaart samen te bespreken. Dit is jouw verantwoordelijkheid. Wacht dus niet tot je praktijkopleider er mee komt, maar neem zelf het initiatief hierin!\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Het vierwekelijks beoordelingsformulier Leer- en Werkhouding BPV en de vierwekelijkse bewijskaart zijn bedoeld om je competentieontwikkeling te beoordelen en hieraan sturing te geven. Het formulier geeft jou feedback en je studieloopbaanbegeleider oortgangsinformatie.\n        ")]),_vm._v(" "),_c('h4',{attrs:{"id":"orientatieopdracht"}},[_vm._v(" Oriëntatieopdracht ")]),_vm._v(" "),_c('p',[_vm._v(" tijdens de eerste 4 weken van de stage ga je verschillende aspecten van jouw BPV-bedrijf onderzoeken en documenteren in volgens de richtlijnen van de Oriëntatieopdracht, te vinden onder 'downloads'.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Het doel hiervan is het snel bekend raken van de processen en structuur binnen in de organisatie.\n        ")]),_vm._v(" "),_c('h4',{attrs:{"id":"stagekaarten"}},[_vm._v(" Ingevulde stagekaarten ")]),_vm._v(" "),_c('p',[_vm._v("\n          Stagekaarten zijn (sets met) opdrachten die jou in staat stellen om te bewijzen dat je aan de slag met gegaan met de verschillende werkprocessen van jouw opleiding in de praktijk. Iedere stagekaart staat in het teken van een specifiek werkproces.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Iedere vier weken lever je een stagekaart in. Welke is aan jou. De één is namelijk in een periode meer bezig met onderhoud en beheer van een site, terwijl een ander weer meer bezig is geweest met het voorbereidingen.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n          Per stagekaart is aangegeven welke documenten je dient aan te leveren voor een beoordeling.\n        ")])]),_vm._v(" "),_c('div',{staticClass:"column is-one-third"},[_c('aside',{staticClass:"toc"},[_c('ul',{staticClass:"toc-list"},[_c('li',[_c('a',{attrs:{"href":"#inleiding"}},[_vm._v(" Inleiding ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stagebezoeken"}},[_vm._v(" Stagebezoeken ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#studievoortgang"}},[_vm._v(" Studievoortgang ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#organisatie"}},[_vm._v(" Organisatie ")]),_vm._v(" "),_c('ul',[_c('li',[_c('a',{attrs:{"href":"#duur"}},[_vm._v(" Duur ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stageopdrachten"}},[_vm._v(" Stageopdrachten ")])])])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#beoordeling"}},[_vm._v(" Beoordeling ")]),_vm._v(" "),_c('ul',[_c('li',[_c('a',{attrs:{"href":"#logboek"}},[_vm._v(" logboek  ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#urenverantwoording"}},[_vm._v(" Urenverantwoording ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#leerwerkhoudingslijsten"}},[_vm._v(" Leer/Werkhoudingslijsten ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#orientatieopdracht"}},[_vm._v(" Oriëntatieopdracht  ")])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"href":"#stagekaarten"}},[_vm._v(" Ingevulde stagekaarten ")])])])])])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "z3UN":
 /***/ (function(module, exports) {
 
@@ -16687,4 +16656,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.6c9f940500f614d76002.js.map
+//# sourceMappingURL=app.7ca7261306225dde4d0a.js.map
